@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Dish A1",
+    "price": 15,
+    "image": "dish_a1.jpg",
+    "description": "Signature dish at Restaurant A",
+    "availability": true
+  },
+  {
+    "name": "Dish A2",
+    "price": 12,
+    "image": "dish_a2.jpg",
+    "description": "Chef's special at Restaurant A",
+    "availability": false
+  },
+  {
+    "name": "Dish A3",
+    "price": 18,
+    "image": "dish_a3.jpg",
+    "description": "Spicy delight at Restaurant A",
+    "availability": true
+  },
+  {
+    "name": "Dish B1",
+    "price": 20,
+    "image": "dish_b1.jpg",
+    "description": "Savory creation at Restaurant B",
+    "availability": true
+  },
+  {
+    "name": "Dish B2",
+    "price": 25,
+    "image": "dish_b2.jpg",
+    "description": "Exquisite delight at Restaurant B",
+    "availability": false
+  },
+  {
+    "name": "Dish B3",
+    "price": 22,
+    "image": "dish_b3.jpg",
+    "description": "Aromatic feast at Restaurant B",
+    "availability": true
+  },
+  {
+    "name": "Dish C1",
+    "price": 18,
+    "image": "dish_c1.jpg",
+    "description": "Family favorite at Restaurant C",
+    "availability": true
+  },
+  {
+    "name": "Dish C2",
+    "price": 15,
+    "image": "dish_c2.jpg",
+    "description": "Healthy choice at Restaurant C",
+    "availability": false
+  },
+  {
+    "name": "Dish C3",
+    "price": 20,
+    "image": "dish_c3.jpg",
+    "description": "Mouthwatering delight at Restaurant C",
+    "availability": true
+  }
+]

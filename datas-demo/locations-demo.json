@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Restaurant_One",
+        "latitude": -6.151853,
+        "longitude": 106.864902
+    },
+    {
+        "name": "Restaurant_Two",
+        "latitude": -6.156974,
+        "longitude": 106.905097
+    },
+    {
+        "name": "Restaurant_Three",
+        "latitude": -6.178478,
+        "longitude": 106.902349
+    }
+]
