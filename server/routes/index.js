@@ -10,5 +10,8 @@ router.use(menus);
 router.use(carts);
 router.use(errorHandler);
 
+router.get('/', (req, res) => {
+    res.send("Hello world!")
+})
 
 module.exports = router;

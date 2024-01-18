@@ -7,7 +7,9 @@ class MenuController
         try
         {
             const menuDatas = await Menu.findAll();
-            res.status(200).json(menuDatas);
+            res.status(200).json({
+                data: menuDatas
+            });
         }
         catch (error)
         {
@@ -29,7 +31,9 @@ class MenuController
             }
             else
             {
-                res.status(200).json(menu)
+                res.status(200).json({
+                    data: menu
+                })
             }
         } catch (error)
         {

@@ -18,7 +18,9 @@ class CartController
             }
             else
             {
-                res.status(200).json(currentCart)
+                res.status(200).json({
+                    data: currentCart
+                })
             }
         }
         catch (error)
@@ -31,7 +33,6 @@ class CartController
     {
         try
         {
-            // add item to cart by id
             const { cartId } = req.params;
             const { itemId, itemQuantity } = req.body;
             const menu = await Menu.findByPk(itemId)

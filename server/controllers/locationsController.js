@@ -7,7 +7,9 @@ class LocationsController
         try
         {
             const locations = await Locations.findAll()
-            res.status(200).json(locations)
+            res.status(200).json({
+                data: locations
+            })
         }
         catch (error)
         {
